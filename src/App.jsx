@@ -10,6 +10,7 @@ import Testimonial from './components/Testimonial'
 import News from './components/News'
 import Footer from './components/footer'
 import ServicesSection from './components/ServicesSection'
+import { DiHeroku } from "react-icons/di"
 const App = () => {
   return (
   <main className="relative main-h-screem overflow-x-hidden" >
@@ -20,6 +21,7 @@ const App = () => {
   <Hero/>
   <CompanyLogo/>
   <Ruprose/>
+  <DiHeroku/>
   <FeaturesSection/>
   <Monitor/>
   <PurposeSection/>
